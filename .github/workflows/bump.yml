@@ -8,7 +8,5 @@ on:
 jobs:
   bump:
     uses: 'azurystudio/bump/.github/workflows/bump.yml@v0'
-    with:
-      reviewers: ''
     secrets:
       token: '${{ secrets.GITHUB_TOKEN }}'
